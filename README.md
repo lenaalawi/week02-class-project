@@ -1,13 +1,16 @@
 # Ohm's Law Calculator
 
-## Purpose: A C++ terminal program that reads a voltage and a resistance
+## Purpose: 
+A C++ terminal program that reads a voltage and a resistance
 and prints the current in amps using I = V / R.
 
-## Input Format: Two numbers separated by whitespace: voltage, then resistance.
+## Input Format: 
+Two numbers separated by whitespace: voltage, then resistance.
 
     12 4
 
-## Build and Run: g++ -std=c++17 -Wall -Wextra -pedantic src/main.cpp -o build/app
+## Build and Run: 
+g++ -std=c++17 -Wall -Wextra -pedantic src/main.cpp -o build/app
     ./build/app
 
 Run the acceptance tests:
@@ -28,7 +31,8 @@ Run the acceptance tests:
 - Output uses default C++ precision (about 6 significant digits).
 - Negative voltages are accepted.
 
-## Debugging Reflection: One issue I had was that I did not have a SSH key at first, 
+## Debugging Reflection: 
+One issue I had was that I did not have a SSH key at first, 
 so I was not able to connect my code to my Github. 
 Additionally, there were a lot of small errors throughtout I had to work through, 
 but it worked out in the end. 
